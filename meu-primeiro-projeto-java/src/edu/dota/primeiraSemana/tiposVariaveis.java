@@ -20,7 +20,8 @@ public class tiposVariaveis {
         /*Caso queira travar o valor para que ele nunca mude */
         final int NUMERO1 = 2;
         
-            System.out.print (numero);
+        System.out.print ("Numero" + NUMERO1);
+      
           
     }
 }
