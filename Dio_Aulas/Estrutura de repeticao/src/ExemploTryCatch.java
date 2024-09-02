@@ -27,7 +27,7 @@ public class ExemploTryCatch {
         System.out.println("Minha altura é " + altura + "cm ");
         scanner.close();
         }
-        catch (InputMismatchException e){
+        catch (InputMismatchException e){ // precisa identificar o caso que está disparando a exceção, nesse exemplo (seria InputMismatchException )
            System.out.println("O campo idade e altura precisam ser numericos ");
         }
         
